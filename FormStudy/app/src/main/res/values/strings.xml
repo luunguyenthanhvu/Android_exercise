@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Mobile dev form</string>
+  <string name="title">VuLuu form</string>
+  <string name="user_name_text">Họ và tên</string>
+  <string name="phone_text">Số điện thoại</string>
+  <string name="email_text">Email</string>
+  <string name="address_text">Địa chỉ</string>
+  <string name="group_text">Nhóm với ai(nếu có)</string>
+  <string name="course">Khóa học</string>
+  <string name="submit_btn">Gửi</string>
+</resources>
