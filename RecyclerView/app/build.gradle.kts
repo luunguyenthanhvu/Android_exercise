@@ -29,7 +29,9 @@ android {
 }
 
 dependencies {
-    implementation("com.android.support:design:29.0.1")
+    // Các thư viện hiện tại
+    implementation("com.squareup.picasso:picasso:2.71828")
+//    implementation("com.android.support:recyclerview-v7:27.1.1")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

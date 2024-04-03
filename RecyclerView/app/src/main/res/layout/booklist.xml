@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="200dp"
+    android:padding="4dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:weightSum="8">
+
+    <ImageView
+        android:src="@drawable/hutao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_book"
+        android:padding="4dp"
+        android:layout_weight="7"/>
+    <TextView
+        android:id="@+id/book_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="price"
+        android:layout_gravity="end"
+        android:layout_weight="0.5"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/book_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="star"
+            android:layout_gravity="end" />
+
+        <ImageView
+            android:src="@drawable/icon"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+</LinearLayout>
